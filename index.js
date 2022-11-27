@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
 import router from './router.js';
 import fileUpload from 'express-fileupload';
 
-const PORT = process.env.PORT | 5000;
+const PORT = process.env.PORT || 5000;
 const DB_URL = process.env.DB_URL;
 
 const app = express();
